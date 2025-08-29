@@ -98,7 +98,7 @@ class HomeViewModel : ViewModel() {
                         if (memo.id == memoId) {
                             memo.copy(
                                 title = _editMemoTitle.value,
-                                content = editMemoContent.value
+                                content = _editMemoContent.value
                             )
                         } else {
                             memo
